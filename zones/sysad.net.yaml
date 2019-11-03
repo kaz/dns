@@ -1,0 +1,12 @@
+"":
+  - type: MX
+    values:
+      - exchange: mxa.mailgun.org.
+        preference: 10
+      - exchange: mxb.mailgun.org.
+        preference: 10
+  - type: TXT
+    value: v=spf1 include:mailgun.org ~all
+pic._domainkey:
+  type: TXT
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhQkBTbEOmifMuO4wiajNaxXTJPbOF72cbqv2EuxGj7XXkOWAKsRsBfxqFHrXqclJzrmU/seotqp2ZVFbNrw3N5xesL81Ulpkr55voiSTd6Ni5sa4oZNvOPwFekWWsoGTJ2kkq37U7hXz8tyJuspuqNvIT+2dxKuje7WwAgf92DQIDAQAB

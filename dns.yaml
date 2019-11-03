@@ -7,3 +7,17 @@ providers:
     class: octodns.provider.cloudflare.CloudflareProvider
     email: env/CLOUDFLARE_EMAIL
     token: env/CLOUDFLARE_TOKEN
+
+zones:
+  6715.jp.:
+    sources: [config]
+    targets: [cloudflare]
+  kiritan.com.:
+    sources: [config]
+    targets: [cloudflare]
+  narusejun.com.:
+    sources: [config]
+    targets: [cloudflare]
+  sysad.net.:
+    sources: [config]
+    targets: [cloudflare]

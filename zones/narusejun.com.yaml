@@ -1,0 +1,24 @@
+"":
+  octodns:
+    cloudflare:
+      proxied: true
+  type: ALIAS
+  value: narusejun.netlify.com.
+books:
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: cheesecake.netlify.com.
+deka:
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: deka-collection.web.app.
+kawaii:
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: narusejun.github.io.

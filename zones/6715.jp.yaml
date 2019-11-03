@@ -1,0 +1,13 @@
+"":
+  - type: MX
+    values:
+      - exchange: mx1.improvmx.com.
+        preference: 10
+      - exchange: mx2.improvmx.com.
+        preference: 20
+  - type: TXT
+    value: v=spf1 include:mailgun.org ~all
+krs._domainkey:
+  ttl: 1
+  type: TXT
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsDD8qpKB5UBYjDbz+anqH4G24F7auZu6uQ9U1L+ptyihSZ8/wNBdghcLHvdrkacmI4dcECxLK/9IZz06a6en8LOUDMpShpw2XK65nzqWHPrJp3/4FjcMn+UENrFe9aTKCs0QCfVbfRKTvqaED2Cxv/SuJcW+xT5p9USORjJB33wIDAQAB
