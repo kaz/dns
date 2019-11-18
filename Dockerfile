@@ -1,4 +1,4 @@
-FROM python:2-alpine
+FROM python:alpine
 
 RUN pip install octodns
 
