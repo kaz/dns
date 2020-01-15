@@ -1,10 +1,10 @@
 "":
   - type: MX
     values:
-      - exchange: mx1.improvmx.com.
+      - exchange: mxa.mailgun.org.
         preference: 10
-      - exchange: mx2.improvmx.com.
-        preference: 20
+      - exchange: mxb.mailgun.org.
+        preference: 10
   - type: TXT
     value: v=spf1 include:mailgun.org ~all
 krs._domainkey:
