@@ -6,12 +6,6 @@
     value: narusejun.netlify.com.
   - type: TXT
     value: google-site-verification=ijJBUWvWKownzdFZB837v7Hh5o_KaRy6WMaHOPrwnjo
-books:
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: cheesecake.netlify.com.
 deka:
   octodns:
     cloudflare:
