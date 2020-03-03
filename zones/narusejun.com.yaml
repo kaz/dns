@@ -3,9 +3,7 @@
       cloudflare:
         proxied: true
     type: ALIAS
-    value: narusejun.netlify.com.
-  - type: TXT
-    value: google-site-verification=ijJBUWvWKownzdFZB837v7Hh5o_KaRy6WMaHOPrwnjo
+    value: kaz.github.io.
 deka:
   octodns:
     cloudflare:
