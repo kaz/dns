@@ -4,6 +4,8 @@
         proxied: true
     type: ALIAS
     value: kaz.github.io.
+  - type: TXT
+    value: google-site-verification=ijJBUWvWKownzdFZB837v7Hh5o_KaRy6WMaHOPrwnjo
 deka:
   octodns:
     cloudflare:
