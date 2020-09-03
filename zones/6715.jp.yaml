@@ -7,7 +7,6 @@
         preference: 10
   - type: TXT
     value: v=spf1 include:mailgun.org ~all
-krs._domainkey:
-  ttl: 1
+mx._domainkey:
   type: TXT
-  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsDD8qpKB5UBYjDbz+anqH4G24F7auZu6uQ9U1L+ptyihSZ8/wNBdghcLHvdrkacmI4dcECxLK/9IZz06a6en8LOUDMpShpw2XK65nzqWHPrJp3/4FjcMn+UENrFe9aTKCs0QCfVbfRKTvqaED2Cxv/SuJcW+xT5p9USORjJB33wIDAQAB
+  value: k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtjTAmniKWayZoAjYzaoUBr7MhIx5540cKdEFBPePNsYDSDf1nP209F/G2M/ZMuEs9Nd+mBR0UT20USrMbQVrdFKwzdqIb9vqFHd79mREUEchYfF6qMxq2w5I7pe9XvGQwlDnQegIEq8HfZ92C6157cqPcMEsMiHfeDmi+dJPhNpaOC0GMHhjCf4r2nnlvbjLJnELYenknS/EEKDBHHSM51lJIqWvuImLuUwTSqBdpkeqhF3K7bKDp10gV53Q3f/ZCSpZKsvUsNmqUf9BcSt1eYWhCy7kEgnif297T5VlEhsC85aQVMcZb3jSZe2GFA5LuSUhkBm2ns7L6c5ntgnvRQIDAQAB

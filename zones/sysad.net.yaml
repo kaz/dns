@@ -7,6 +7,6 @@
         preference: 10
   - type: TXT
     value: v=spf1 include:mailgun.org ~all
-pic._domainkey:
+mx._domainkey:
   type: TXT
-  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhQkBTbEOmifMuO4wiajNaxXTJPbOF72cbqv2EuxGj7XXkOWAKsRsBfxqFHrXqclJzrmU/seotqp2ZVFbNrw3N5xesL81Ulpkr55voiSTd6Ni5sa4oZNvOPwFekWWsoGTJ2kkq37U7hXz8tyJuspuqNvIT+2dxKuje7WwAgf92DQIDAQAB
+  value: k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmO9obq3ThKoKM7o+N3H2IQ9O4N7no5tN1P20o4d9jEIdDhcsW87r5lK27ervg3Lrsimbw0YKiVLo+pSreHBSIpcs/PNi/qDkNacivu/Qzv9tHX9pCmxxYk/l8EEOSrp8yQBSXafq4yH7Fe5lB/SxKRAcei/YpSeByVF1RsjI3fxFtt81Hp2Naa584ILbUpcumc/MBygX1Bf4VuX8NXCNSYWOD03KO6gsYNBl/xhrknFtynl9zgsQdQ2VXGuiZ0TAz1/JnV6uiRZi/HMZk01XmBEksfsnpz1LJQIRvnNnYQHg1hbi1jcYGlJIi4xSMXpph7qU1yuxsp8bOizJSjxjcQIDAQAB
