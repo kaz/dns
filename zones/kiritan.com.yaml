@@ -1,0 +1,6 @@
+"":
+  octodns:
+    cloudflare:
+      proxied: true
+  type: ALIAS
+  value: puella.aa0.netvolante.jp.

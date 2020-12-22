@@ -11,7 +11,7 @@ deka:
     cloudflare:
       proxied: true
   type: CNAME
-  value: deka-collection.web.app.
+  value: _cloudflare_workers_.narusejun.com.
 kawaii:
   octodns:
     cloudflare:
