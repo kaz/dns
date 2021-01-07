@@ -1,4 +1,9 @@
 "":
+  - octodns:
+      cloudflare:
+        proxied: true
+    type: ALIAS
+    value: kaz.github.io.
   - type: MX
     values:
       - exchange: mxa.mailgun.org.
