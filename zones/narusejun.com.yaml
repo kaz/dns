@@ -3,7 +3,7 @@
       cloudflare:
         proxied: true
     type: ALIAS
-    value: kaz.github.io.
+    value: workers.cloudflare.com.
   - type: TXT
     value: google-site-verification=ijJBUWvWKownzdFZB837v7Hh5o_KaRy6WMaHOPrwnjo
 deka:
@@ -11,7 +11,7 @@ deka:
     cloudflare:
       proxied: true
   type: CNAME
-  value: _cloudflare_workers_.narusejun.com.
+  value: workers.cloudflare.com.
 kawaii:
   octodns:
     cloudflare:
