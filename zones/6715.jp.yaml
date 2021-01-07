@@ -11,7 +11,9 @@
       - exchange: mxb.mailgun.org.
         preference: 10
   - type: TXT
-    value: v=spf1 include:mailgun.org ~all
+    values:
+      - v=spf1 include:mailgun.org ~all
+      - google-site-verification=t5DEWabL8_-sxboyOKU_sB0WTl0qTJS9BYGIeq-ejuU
 mg._domainkey:
   type: TXT
   value: k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2Mn+s7LHZzMXqx7RKa842TaFsvVxAKFSXq/T3u7I0WvLggCarfpgWS4MTLIMr2ZvAecOIQHWDmwjObzKq5RaiHbPulZDZ62y3lceF00pkIgYYVOBp/xGXW2kyILIskdV02QXZuFzqIaG8zJbcABfYD6yNKWBnwhlQ+VVJC3uEcePZH5asqYxhvRKJnja6BTDbae2rKcPdp8l0OpJVhMW3oAKfuTjljj7gzZ3Cwlg7tl7lw0GCkiMqDyfPmRvjR9Os+MsXaHeTLDWTgu8Z4wRL2VspQLMYxy6Uup0ToWT8pAWJY62fDO8nCCtyBFuAc6jJgWRoNQh5iOVC9RVLitokwIDAQAB
