@@ -1,7 +1,7 @@
 OCTODNS=docker run -ti --rm --env-file .env --volume $(PWD):/workdir octodns --config-file dns.yaml
 
-.PHONY: sync
-sync: image .env
+.PHONY: plan
+plan: image .env
 	$(OCTODNS) $(OPTS)
 
 .PHONY: apply
