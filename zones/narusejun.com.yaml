@@ -18,3 +18,9 @@ kawaii:
       proxied: true
   type: CNAME
   value: narusejun.github.io.
+wiki:
+  octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 35.200.60.36
